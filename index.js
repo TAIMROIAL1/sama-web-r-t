@@ -1,1 +1,1 @@
-import sliderView from "./sliderView.js";
+import sliderView from "./Views/sliderView.js";
