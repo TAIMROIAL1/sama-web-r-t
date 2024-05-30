@@ -6,5 +6,3 @@ console.log(slides);
 slides.forEach((slide, i) => {
   slide.style.transform = `translateX(${i * 110}%)`;
 })
-
-'n';
