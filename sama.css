@@ -160,7 +160,7 @@ grid-auto-rows:400px ;
     border-style: solid;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows:100px  100px 100px;
-color: aliceblue;
+color: black;
 
    }
    .img4{
@@ -238,7 +238,7 @@ display: flex;
 justify-content: center;
 align-items: center;
   } */
-  .button{
+  .button1{
 margin: auto;
     width: 30px;
     height: 30px;
@@ -252,4 +252,3 @@ margin: auto;
     height: 30px;
    text-align: center;
   }
- /*  تلحس طيزي */
