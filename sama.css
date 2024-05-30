@@ -243,18 +243,19 @@ align-items: center;
     width: 30px;
     height: 30px;
    text-align: center;
-   position: relative;
-   top: 150px;
-   left: 378px;
+   position: absolute;
+   top: 152px;
+   right:793px;
 
   }
   .button2{
+
     width: 30px;
     height: 30px;
    text-align: center;
-   position: relative;
+   position: absolute;
     top: 150px;
-    left: -30px;
+    left: 800px; 
     
 
   }
