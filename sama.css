@@ -237,6 +237,7 @@ border-radius: 20px;
   position: absolute;
 border: 1px ;
 border-radius: 20px;
+transition: all 0.7s;
 }
 
 

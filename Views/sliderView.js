@@ -22,11 +22,11 @@ class Slider {
     
       if(!clicked) return;
     
-      if(clicked.classList.contains('button2'))
+      if(clicked.classList.contains('btn2'))
         this.#activeIndex = this.#activeIndex === this.#slides.length - 1? 0 : this.#activeIndex + 1;  
         
     
-      if(clicked.classList.contains('button1'))
+      if(clicked.classList.contains('btn1'))
       this.#activeIndex = this.#activeIndex === 0? this.#slides.length - 1 : this.#activeIndex - 1;  
 
             this.#renderSlides()
