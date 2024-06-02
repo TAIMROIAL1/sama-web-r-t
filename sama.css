@@ -227,6 +227,7 @@ position: relative;
 top: 12rem;
 border: 1px ;
 border-radius: 20px;
+overflow: hidden;
 
 }
 .teacher{ 
