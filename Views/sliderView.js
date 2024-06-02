@@ -1,6 +1,6 @@
 class Slider {
   #activeIndex = 0;
-  #slides = [...document.querySelectorAll('.center')];
+  #slides = [...document.querySelectorAll('.teacher')];
   #containerSlides = document.querySelector('.cont');
 
   constructor() {
@@ -10,6 +10,7 @@ class Slider {
   #renderSlides () {
     let counter = -this.#activeIndex;
     this.#slides.forEach((slide) => {
+      console.log(slide);
       slide.style.transform = `translateX(${counter * 110}%)`;
       counter++;
     })
