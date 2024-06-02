@@ -7,7 +7,7 @@ body{
   margin: 0;
     font-family: monospace;
     font-size:1rem;
-background-color: #fff;
+background-image: url(z12.jpg);
 }
 .nav-bar{
   display: flex;
@@ -46,7 +46,6 @@ text-shadow: 4px 4px 4px rgba(70, 70, 70, 0.568);
 }
 
 .navbar-btn{
-  background-color: #fff;
 display: inline;
   font-size: 20px;
   text-transform: uppercase;
@@ -61,7 +60,7 @@ display: inline;
 
 .navbar-btn:hover{
   
-background-image: linear-gradient(90deg, #2272FF, rgba(0, 0, 0, 0.568));
+/* background-image: linear-gradient(90deg, #2272FF, rgba(0, 0, 0, 0.568)); */
 color: #fff;
 background-clip: border-box;
   transform: translateY(-10px);
