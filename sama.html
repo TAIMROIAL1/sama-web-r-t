@@ -9,14 +9,16 @@
 </head>
 <body>
   <div class="nav-bar">
-    <button class="btn-list">list</button>
+    <button class="btn-list">List</button>
     <img src="img.jpg" alt="" class="nav-bar-img">
     <div class="links">
       <ul class="list">
-        <button class="navbar-btn">home</button>
-        <button class="navbar-btn">student</button>
-        <button class="navbar-btn">teacher</button>
-        <button class="navbar-btn">school</button>
+        <div class="hidden-list list__btn-container">
+          <a class="custom-link" href="#Home"><button class="navbar-btn">home</button></a>
+          <a class="custom-link" href="#student"><button class="navbar-btn">student</button></a>
+          <a class="custom-link" href="#teachers"><button class="navbar-btn">teacher</button></a>
+          <a class="custom-link" href="#school"><button class="navbar-btn">school</button></a>  
+        </div>
       </ul>
     </div>
     <h2 class="logo-test">sama <h3 >alashrafea</h3></h2>
@@ -47,12 +49,11 @@
   </div> 
 </div>
 </article>
-<section class="sec" >
+
+<section class="sec teachers" >
  <div class="teachers-header">
   <span  >teachers:</span>
  </div>
-
-
  <div class="cont">
   
  <div class="teacher">

@@ -10,7 +10,6 @@ class Slider {
   #renderSlides () {
     let counter = -this.#activeIndex;
     this.#slides.forEach((slide) => {
-      console.log(slide);
       slide.style.transform = `translateX(${counter * 110}%)`;
       counter++;
     })
