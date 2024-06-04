@@ -12,14 +12,14 @@ class Intersector {
 
   #setIntersector() {
     function handler([entry], observer) {
-      if(entry.target.isIntersecting) {
-        section.classList.remove('hidden');
+      if(entry.isIntersecting) {
+        entry.target.classList.remove('hidden-sec');
         observer.unobserve(entry.target);
       }
     }
     const options = {
       root: null,
-      threshold: 0.1
+      threshold: 0.1,
     }
 
     this.#observer = new IntersectionObserver(handler, options);

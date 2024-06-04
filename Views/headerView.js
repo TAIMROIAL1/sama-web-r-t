@@ -1,5 +1,4 @@
 class Header {
-  #btnList = document.querySelector('.list__btn-container');
   #list = document.querySelector('.list');
   constructor() {
     this.#setListBtnListener();
@@ -12,7 +11,7 @@ class Header {
 
       if(!list) return;
 
-      this.#btnList.classList.toggle('hidden-list');
+      this.#list.classList.toggle('hidden');
     })
   }
 

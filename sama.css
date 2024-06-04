@@ -14,18 +14,22 @@
  background-image: url(z12.jpg);
  
  }
+
  .custom-link {
   text-decoration: none;
-cursor: auto; 
+  cursor: auto; 
 }
 
  button{
   cursor: pointer;
  }
-  .hidden-list{
+  .hidden{
     display: none;
   }
 
+  .hidden-sec{
+    opacity: 0;
+  }
   .nav-bar{
     display: flex;
     position: relative;
@@ -394,6 +398,10 @@ cursor: auto;
   background-image: url(z12.jpg);
   }
   
+  .hidden-sec{
+    opacity: 0;
+  }
+
   .btn-list {
     display: none;
   }
@@ -760,6 +768,10 @@ body{
     font-family: monospace;
     font-size:1rem;
 background-image: url(z12.jpg);
+}
+
+.hidden-sec{
+  opacity: 0;
 }
 
 .btn-list {
